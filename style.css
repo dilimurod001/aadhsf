@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.kkkk{
+
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ gap: 40px;
+}
+.ppp{
+     display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto;
+  flex-direction: column;
+       background-color: greenyellow;
+ width: 786px;
+ height: 278px;
+ font-size: 96px;
+  gap: 26px;
+}
+.kkkk::before{
+    content: "Before";
+  display: block;
+  width: 630px;
+  height: 148px;
+  color: black;
+  background-color: rgb(64, 0, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 64px;
+}
+.kkkk::after{
+      content: "After";
+  display: block;
+  width: 630px;
+  height: 148px;
+  color: black;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 64px;
+}
